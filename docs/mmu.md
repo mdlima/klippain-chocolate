@@ -20,6 +20,11 @@ cd Happy-Hare
 ./install.sh -i
 ```
 
+
+  > **Note**:
+  >
+  > For new Happy-Hare versions compatibility `MMU_SERVO` must be replace to  `MMU_SEL_SERVO` in mcu.cfg and eventualy if you have already install Happy-Hare in `[mmu_servo selector_servo]` section of `hardware.cfg` like `pin: mmu:MMU_SEL_SERVO` instead of `pin: mmu:MMU_SERVO`.
+  
 Klippain requires a few simple steps to configure and customize it for your printer, if you haven't already followed the [configuration guide](./configuration.md), please do so first.
 
 Finally, enable Klippain's MMU feature by uncommenting the corresponding line in your `printer.cfg`. Don't forget to have a look at the HappyHare config files in the `mmu` folder at the root of your config.
