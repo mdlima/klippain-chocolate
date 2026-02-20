@@ -380,7 +380,7 @@ prompt() {
   [ $# -eq 2 ] && [ ${2^} = "N" ] && default="yN"
  
   while true; do
-    read -p "${MAGENTA}$1${DEFAULT}" yn
+    read -p "${MAGENTA}$1${DEFAULT}" yn < /dev/tty
     case $yn in
     [Yy]*) return 0 ;;
     "")
