@@ -4,4 +4,4 @@ This has now moved to its own repository: [Klippain Shake&Tune module](https://g
 
   > **Note**
   >
-  > For Klippain users, nothing is needed to do as the latest version of K-Shake&Tune is always included in the full Klippain package!
+  > For Klippain-chocolate users, be sure to update K-Shake&Tune to version >= 4.0 as it is installed with the Klippain package!
