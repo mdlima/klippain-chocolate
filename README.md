@@ -39,17 +39,23 @@ Finally, Klippain-🍫 requires a few simple steps to configure and customize it
 
 The install script supports several command line options:
 
+**First installation:**
+```bash
+wget -O - https://raw.githubusercontent.com/elpopo-eng/klippain-chocolate/<branch_name>/install.sh | bash -s -- [-b <branch_name>] [--reinstall-templates] [--reinstall-addons]
+```
+
+**For existing Klippain-🍫 installations:**
 ```bash
 cd ~/klippain_config
 bash ./install.sh [-b <branch_name>] [--reinstall-templates] [--reinstall-addons]
 ```
 
-Available options:
+**Available options:**
 - `-b` or `--branch`: Select Klippain branch to install
   - `main`: Default stable branch
   - `beta`: Advanced features branch
   - `develop`: Latest development branch
-- `--reinstall-templates`: Regenerate MCU templates in `mcus.cfg` (previous file backed up)
+- `--reinstall-templates`: Regenerate MCU templates in `mcu.cfg` (previous file backed up)
 - `--reinstall-addons`: Prompt to install optional components like Shaketune
 
 
